@@ -4,8 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>This is an example project</h1>
+    <header></header>
+    <main>
+      <section class="reviews">
+        <div class="swiper">
+          <ul class="team-list swiper-wrapper">
+            <li class="team-item swiper-slide">
+              <img src="./images/team1.jpg" alt="" />
+              <h3>Team 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aspernatur dolore
+                nemo labore voluptate quia molestiae in consequuntur est repellat.
+              </p>
+            </li>
+            <li class="team-item swiper-slide">
+              <img src="./images/team2.jpg" alt="" />
+              <h3>Team 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellendus quo a
+                aliquid porro excepturi dignissimos. Excepturi consectetur quas cum?
+              </p>
+            </li>
+            <li class="team-item swiper-slide">
+              <img src="./images/team3.jpg" alt="" />
+              <h3>Team 3</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ipsam in eligendi
+                fugit facere dolores quas delectus maiores nemo corrupti
+              </p>
+            </li>
+          </ul>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
