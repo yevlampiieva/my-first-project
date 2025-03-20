@@ -1,0 +1,30 @@
+body {
+  background-color: #111;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 32px;
+}
+
+.team-item {
+  text-align: center;
+  background-color: #fff;
+  width: calc((100% - 64px) / 3);
+  border-radius: 4px;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
